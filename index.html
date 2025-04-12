@@ -1,38 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="fcc">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | News homepage</title>
   <link rel="stylesheet" href="style.css">
  
 </head>
-<body>
-  <div class="main">
+<body class="fcc">
+  <div class="main fcc">
+    <div class="mobile-nav">
+      <a href="#">Home</a>
+      <a href="#">New</a>
+      <a href="#">Popular</a>
+      <a href="#">Trending</a>
+      <a href="#">Categories</a>
+    </div>
     <div class="row1">
-      <img src="./assets/images/logo.svg" alt="">
-      <a href="">Home</a>
-      <a href="">New</a>
-      <a href="">Popular</a>
-      <a href="">Trending</a>
-      <a href="">Categories</a>
+      <img class="logW" src="./assets/images/logo.svg" alt="">
+      <img class="menu" src="./assets/images/icon-menu.svg" alt="">
+      <img class="exitMenu" src="./assets/images/icon-menu-close.svg" alt="">
+      <a class="home" href="">Home</a>
+      <a class="new" href="">New</a>
+      <a class="popular" href="">Popular</a>
+      <a class="trending" href="">Trending</a>
+      <a class="categories" href="">Categories</a>
     </div>
     <div class="row2">
-      <div>
-        <img src="./assets/images/image-web-3-desktop.jpg" alt="">
+      <div class="mainImg">
+        <img  src="./assets/images/image-web-3-desktop.jpg" alt="">
       </div>
-      <div>
+      <div class="web3">
         <p>The Bright Future of Web 3.0?</p>
       </div>
-      <div>
+      <div class="readMore">
         <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
             But is it really fulfilling its promise?</p>
-        <button>Read more</button>
+        <button>READ MORE</button>
       </div>
-      <div>
-        <p>New</p>
+      <div class="list">
+        <p class="listNew">New</p>
         <a href="">Hydrogen VS Electric Cars</a>
         <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
         <hr>
@@ -45,33 +56,33 @@
     </div>
     <div class="row3">
         <div class="retro">
-          <div>
+          <div class="retroImg">
             <img src="./assets/images/image-retro-pcs.jpg" alt="">
           </div> 
-          <div>
-            <p>01</p>
-            <a href="">Reviving Retro PCs</a>
-            <p>What happens when old PCs are given modern upgrades?</p>
+          <div class="retroText">
+            <p class="num">01</p>
+            <a class="link" href="">Reviving Retro PCs</a>
+            <p class="info">What happens when old PCs are given modern upgrades?</p>
           </div>        
         </div>
         <div class="laptops">
-          <div>
+          <div class="laptopsImg">
             <img src="./assets/images/image-top-laptops.jpg" alt="">
           </div> 
-          <div>
-            <p>02</p>
-            <a href="">Top 10 Laptops of 2022</a>
-            <p>Our best picks for various needs and budgets.</p>
+          <div class="laptopsText">
+            <p class="num">02</p>
+            <a class="link" href="">Top 10 Laptops of 2022</a>
+            <p class="info">Our best picks for various needs and budgets.</p>
           </div>        
         </div>
         <div class="gaming">
-          <div>
+          <div class="gamingImg">
             <img src="./assets/images/image-gaming-growth.jpg" alt="">
           </div> 
-          <div>
-            <p>03</p>
-            <a href="">The Growth of Gaming</a>
-            <p>How the pandemic has sparked fresh opportunities.</p>
+          <div class="gamingText">
+            <p class="num">03</p>
+            <a class="link" href="">The Growth of Gaming</a>
+            <p class="info">How the pandemic has sparked fresh opportunities.</p>
           </div>        
         </div>
     </div>
